@@ -1,204 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaikh Faruk - Resume</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-        header {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .contact-info {
-            font-size: 0.9em;
-            margin-bottom: 20px;
-        }
-        .contact-info a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        .section {
-            padding: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        h2 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-        .objective {
-            font-style: italic;
-            color: #555;
-        }
-        .experience-item, .education-item, .project-item {
-            margin-bottom: 20px;
-        }
-        .experience-item h3, .project-item h3 {
-            color: #2980b9;
-        }
-        .experience-item p, .education-item p, .project-item p {
-            margin: 5px 0;
-            font-size: 0.9em;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 20px;
-        }
-        li::before {
-            content: "•";
-            color: #3498db;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
-        }
-        .skills ul {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .skills li {
-            background-color: #ecf0f1;
-            padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 0.9em;
-        }
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-            header {
-                padding: 20px 10px;
-            }
-            h1 {
-                font-size: 2em;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Shaikh Faruk</h1>
-            <div class="contact-info">
-                <p>Pune, Maharashtra, India | (+91) 9561611828</p>
-                <p>
-                    <a href="mailto:sfaruk1137@gmail.com">sfaruk1137@gmail.com</a> |
-                    <a href="https://github.com/Shaikhfaruk" target="_blank">Github</a> |
-                    <a href="https://www.linkedin.com/in/shaikh-faruk" target="_blank">LinkedIn</a> |
-                    <a href="https://shaikhfaruk.netlify.app" target="_blank">Portfolio</a>
-                </p>
-            </div>
-        </header>
+# Shaikh Faruk
 
-        <div class="section">
-            <h2>Objective</h2>
-            <p class="objective">To obtain a challenging role as a Senior Team Lead | MERN Stack Developer in a dynamic and innovative organization where I can leverage my 4.5+ years of experience to contribute significantly to the growth and success of the company.</p>
-        </div>
+[📧 Email](mailto:sfaruk1137@gmail.com) | [🔗 LinkedIn](https://www.linkedin.com/in/shaikh-faruk) | [🌐 Portfolio](https://shaikhfaruk.netlify.app) | [🐙 GitHub](https://github.com/Shaikhfaruk)
 
-        <div class="section">
-            <h2>Experience</h2>
-            <div class="experience-item">
-                <h3>Senior Team Lead | MERN Stack Developer</h3>
-                <p>EduNewron, a division of ODM Educational Group | Aug 2023 - Present</p>
-                <p>Pune (On-site)</p>
-                <ul>
-                    <li>Leading a team of developers in end-to-end development of web applications</li>
-                    <li>Spearheading innovative projects to enhance company's technological capabilities</li>
-                    <li>Collaborating with cross-functional teams for seamless feature integration</li>
-                    <li>Implementing best practices for code quality, scalability, and performance optimization</li>
-                </ul>
-            </div>
-            <div class="experience-item">
-                <h3>Full Stack MERN Developer</h3>
-                <p>Coffeetobusiness, a division of TechCream | Aug 2022 - July 2023</p>
-                <p>Indore (Virtual)</p>
-                <ul>
-                    <li>Developed and maintained web applications using MERN stack</li>
-                    <li>Worked on e-commerce platforms, SaaS solutions, and business websites</li>
-                    <li>Improved application performance and scalability</li>
-                    <li>Utilized Agile methodologies, Git, Webpack, and deployed on various platforms</li>
-                    <li>Familiar with Nginx, PM2, and reverse proxy</li>
-                </ul>
-            </div>
-            <!-- Add other experience items here -->
-        </div>
+📍 Pune, Maharashtra, India | 📞 (+91) 9561611828
 
-        <div class="section">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Bachelor of Computer Science (B.C.S)</h3>
-                <p>Dr. Babasaheb Ambedkar Marathwada University | June 2021 - 2024</p>
-                <p>Aurangabad</p>
-            </div>
-        </div>
+## Objective
 
-        <div class="section skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>Redux</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
-                <li>React Native</li>
-                <li>Cypress</li>
-                <li>Git</li>
-                <li>AWS</li>
-                <li>RESTful APIs</li>
-                <li>Socket.io</li>
-                <li>Agile Methodologies</li>
-            </ul>
-        </div>
+To obtain a challenging role as a Senior Team Lead | MERN Stack Developer in a dynamic and innovative organization where I can leverage my 4.5+ years of experience to contribute significantly to the growth and success of the company.
 
-        <div class="section">
-            <h2>Projects</h2>
-            <div class="project-item">
-                <h3>EduNewron</h3>
-                <p>Centralized Educational Software | Aug 2023 - Present</p>
-                <ul>
-                    <li>Developed a comprehensive solution for educational institutions</li>
-                    <li>Technologies: React.js, Tailwind CSS</li>
-                    <li>Link: <a href="https://school.elern.io/#team" target="_blank">https://school.elern.io/#team</a></li>
-                </ul>
-            </div>
-            <!-- Add other project items here -->
-        </div>
+## Experience
 
-        <div class="section">
-            <h2>Languages</h2>
-            <p>English, Hindi, Marathi</p>
-        </div>
-    </div>
-</body>
-</html>
+### Senior Team Lead | MERN Stack Developer
+**EduNewron, a division of ODM Educational Group** | Aug 2023 - Present | Pune (On-site)
+
+- Leading a team of developers in end-to-end development of web applications
+- Spearheading innovative projects to enhance company's technological capabilities
+- Collaborating with cross-functional teams for seamless feature integration
+- Implementing best practices for code quality, scalability, and performance optimization
+
+### Full Stack MERN Developer
+**Coffeetobusiness, a division of TechCream** | Aug 2022 - July 2023 | Indore (Virtual)
+
+- Developed and maintained web applications using MERN stack
+- Worked on e-commerce platforms, SaaS solutions, and business websites
+- Improved application performance and scalability
+- Utilized Agile methodologies, Git, Webpack, and deployed on various platforms
+- Familiar with Nginx, PM2, and reverse proxy
+
+### Frontend Developer
+**Criada** | Aug 2021 - Feb 2022 | Indore (Virtual)
+
+- Developed and maintained frontend of web applications using React.js
+- Improved skills in JavaScript, HTML, CSS, and gained Git experience
+- Collaborated with cross-functional teams including designers and project managers
+
+### Freelance Developer
+**Code Crushers** | Jan 2019 - Jul 2022
+
+- Completed various freelance projects, delivering tailored web solutions
+- Managed end-to-end process from client onboarding to final delivery and support
+- Developed custom web applications using diverse technologies
+
+## Education
+
+**Bachelor of Computer Science (B.C.S)**  
+Dr. Babasaheb Ambedkar Marathwada University | June 2021 - 2024 | Aurangabad
+
+## Skills
+
+- **Languages:** JavaScript, TypeScript
+- **Frontend:** React.js, Next.js, Redux, Context API, Tailwind CSS, Bootstrap, Material UI, HTML, CSS, SCSS
+- **Backend:** Node.js, Express.js, MongoDB, Strapi CMS
+- **Mobile:** React Native
+- **Testing:** Cypress
+- **DevOps:** Git, GitHub, GitLab, CI/CD Pipelines, AWS, Digital Ocean, EC2, S3
+- **Tools:** Webpack, Figma, UI/UX Design
+- **Other:** RESTful APIs, Socket.io, Agile Methodologies
+
+## Projects
+
+### EduNewron
+**Centralized Educational Software** | Aug 2023 - Present
+
+- Developed a comprehensive solution for educational institutions
+- Technologies: React.js, Tailwind CSS
+- [View Project](https://school.elern.io/#team)
+
+### Pitchspot
+**Advanced Blogging Platform** | Sep 2022 - July 2023
+
+- Created a platform for advanced blog creation and meeting management
+- Technologies: React.js, Next.js, Express.js, MongoDB, Socket.io, Editor.js, Tailwind CSS, Cypress
+- [View Project](https://app.pitchspot.io/)
+
+### MYTY
+**Personal Web Presence Platform** | Jun 2021 - Jan 2022
+
+- Developed a platform for creating unique personal web presences
+- Technologies: React.js, Next.js, Express.js, MongoDB, Node.js, Socket.io
+- [View Project](https://mytym.in/)
+
+## Languages
+
+English, Hindi, Marathi
